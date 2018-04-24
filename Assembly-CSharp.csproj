@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AA30370E-A0E1-E6F7-B9AE-17830EC3FA82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineConfiner.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineFramingTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineSameAsFollowObject.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\AxisState.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CameraState.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineComponentBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\Predictor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\SplineHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostFX.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\AttackState_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\ConditionHaveEnemy_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\DistanceCondition_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FireSlimeAI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FireSlimeAttr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FireSlimeAttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FireSlimeBody.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\FusedLaser.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\LaunchFusedLaser_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\LaunchFusedLaserState_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\MoveState_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\MoveToEnemy_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime\MoveToEnemyState_FireSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\AttackState_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\ConditionHaveEnemy_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\DistanceCondition_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\FireSlime1AI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\FireSlime1AtrrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\FireSlime1Attr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\FireSlime1Body.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\MeltedBomb.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\MoltenLava_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\MoveState_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\MoveToEnemy_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\MoveToEnemyState_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\ThrowMeltedBomb_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime1\ThrowMeltedBombState_FireSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\ConditionHaveBumpIntoTheWall_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\ConditionHaveEnemy_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\FireSlime2AI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\FireSlime2Attr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\FireSlime2AttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\FireSlime2Body.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\IFire.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\MoveState_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\Rush_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\RushState_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\Vertigo_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlime2\VertigoState_FireSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\AttackState_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\ConditionCoolTime_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\ConditionHaveEnemy_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\DistanceCondition_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireShield.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireSlimeBossAI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireSlimeBossAtrr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FireSlimeBossAtrrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FSlimeBossBody.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\FusedLaserBall_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Magma_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\MoltenLava_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\MoveState_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\MoveToEnemy_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\MoveToEnemyState_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\NormalAttack\NormalAttack_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\NormalAttack\NormalAttackState_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill1\LaunchFireBomb_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill1\Skill1State_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill2\GuideMagma_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill2\Skill2State_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill3\RepeatGuideMagma_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\FireSlimeBoss\Skill3\Skill3State_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\AttackState_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\ConditionHaveEnemy_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\DistanceCondition_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\Ice.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\IceSlimeAI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\IceSlimeAttr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\IceSlimeAttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\IceSlimeBody.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\LaunchIce_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\LaunchIceState_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\MoveState_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\MoveToEnemy_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime\MoveToEnemyState_IceSlime.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\AttackState_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\ConditionHavaEnemy_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\DistanceCondition_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceBullet.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceGround_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceSlime1AI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceSlime1Attr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceSlime1AttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\IceSlime1Body.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\LaunchIceBullet_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\LaunchIceBulletState_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\MoveState_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\MoveToEnemy_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime1\MoveToEnemyState_IceSlime1.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\AttackState_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\ConditionHavaEnemy_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\DistanceCondition_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceLaser.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceSlime2AI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceSlime2Attr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceSlime2AttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\IceSlime2Body.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\LaunchIceLaser_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\LaunchIceLaserState_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\MoveState_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\MoveToTheEnemy_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlime2\MoveToTheEnemyState_IceSlime2.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\AttackState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\ConditionCoolTime_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\ConditionHaveEnemy_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\DistanceCondition_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceBlock.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceBullet_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceSlimeBossAI.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceSlimeBossAttr.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceSlimeBossAttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\IceSlimeBossBody.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\MoveState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\MoveToEnemy_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\MoveToEnemyState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\NormalAttack\NormalAttack_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\NormalAttack\NormalAttackState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\PassiveSkill\PassiveSkill_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\PassiveSkill\PassiveSkillState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\PrepareState_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill1\Skill1State_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill1\SpawnIce_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\SKill2\CreateIceField_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\SKill2\Skill2State_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill2IceBullet_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill3\GatherEnergy_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill3\Skill3State_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill4\Skill4_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill4\Skill4State_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\IceSlimeBoss\Skill4IceBullet.cs" />
+     <Compile Include="Assets\Scripts\Character\Enemy\SkillUnit.cs" />
+     <Compile Include="Assets\Scripts\Character\ICharacter.cs" />
+     <Compile Include="Assets\Scripts\Character\ICharacterAttr.cs" />
+     <Compile Include="Assets\Scripts\Character\ICharacterAttrStrategy.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\FireState.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\IceState.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\NormalState.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\PlayerState.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\Weapon\Gun.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\Weapon\IBullet.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\Weapon\IWeapon.cs" />
+     <Compile Include="Assets\Scripts\Character\Player\Weapon\Sword.cs" />
+     <Compile Include="Assets\Scripts\Character\State\CharacterAI.cs" />
+     <Compile Include="Assets\Scripts\Character\State\ConditionNode.cs" />
+     <Compile Include="Assets\Scripts\Character\State\Decorator_NotNode.cs" />
+     <Compile Include="Assets\Scripts\Character\State\DecoratorNode.cs" />
+     <Compile Include="Assets\Scripts\Character\State\IState.cs" />
+     <Compile Include="Assets\Scripts\Character\State\RandomSelectorNode.cs" />
+     <Compile Include="Assets\Scripts\Character\State\RepeatDecoratorNode.cs" />
+     <Compile Include="Assets\Scripts\Character\State\Selector.cs" />
+     <Compile Include="Assets\Scripts\Character\State\Sequence.cs" />
+     <Compile Include="Assets\Scripts\FireSlimeScene\BossRoom_FireSlimeScene.cs" />
+     <Compile Include="Assets\Scripts\FireSlimeScene\BossRoomInDoor_FireSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\FireSlimeScene\FireSlimeGameLoop.cs" />
+     <Compile Include="Assets\Scripts\FireSlimeScene\InDoor_FireSlimeScene.cs" />
+     <Compile Include="Assets\Scripts\FireSlimeScene\Room1_FireSlimeScene.cs" />
+     <Compile Include="Assets\Scripts\IceSlimeScene\BossRoom_IceSlimeScene.cs" />
+     <Compile Include="Assets\Scripts\IceSlimeScene\BossRoomInDoor_IceSlimeBoss.cs" />
+     <Compile Include="Assets\Scripts\IceSlimeScene\IceSlimeGameLoop.cs" />
+     <Compile Include="Assets\Scripts\IceSlimeScene\InDoor.cs" />
+     <Compile Include="Assets\Scripts\IceSlimeScene\Room1.cs" />
+     <Compile Include="Assets\Scripts\MainScene\MainSceneMenu.cs" />
+     <Compile Include="Assets\Scripts\Nav\FindPath.cs" />
+     <Compile Include="Assets\Scripts\Nav\Grid.cs" />
+     <Compile Include="Assets\Scripts\Nav\Node.cs" />
+     <Compile Include="Assets\Scripts\ShowFPS.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
+     <None Include="Assets\Shader\RiverShader.shader" />
+     <None Include="Assets\Shader\NewSurfaceShader.shader" />
+     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
+     <None Include="Assets\Shader\BeAttackFlashColor.shader" />
+     <None Include="Assets\Shader\Test.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WSA.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/asus/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
